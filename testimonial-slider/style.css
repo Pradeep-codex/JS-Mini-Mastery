@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gray;
+}
+.testimonal-con{
+    width: 750px;
+    height: 30%;
+    background-color: slateblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.433);
+}
+img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: -70px;
+}
+p{
+    color: white;
+    padding:80px 20px 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Permanent Marker", serif;
+    line-height: 30px;
+}
+h4{
+    color: rgb(221, 221, 221);
+    font-family: Helvetica, sans-serif;
+}
