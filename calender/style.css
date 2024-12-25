@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(114, 100, 204);
+}
+.calender-container{
+    background-color: white;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 9px 0px rgb(47, 46, 46);
+}
+.month-name{
+    background-color: rgba(255, 68, 0, 0.909);
+    padding: 20px;
+    font-size: 45px;
+    font-family: "Permanent Marker", serif;
+    color: white;
+    font-weight: bold;
+}
+
+.day-name{
+    padding: 25px;
+    color: gray;
+    font-size: 25px;
+    font-family: "Permanent Marker", serif;
+}
+
+.day-number{
+    font-size: 100px;
+    font-family: "Permanent Marker", serif;
+}
+.year{
+    padding: 25px;
+    color: gray;
+    font-size: 20px;
+    font-family: "Permanent Marker", serif;
+}
