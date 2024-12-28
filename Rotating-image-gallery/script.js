@@ -8,7 +8,8 @@ prevEle.addEventListener("click",()=>{
 })
 
 function updateGallery(){
-    imgCon.style.transform = `perspective(1000px) rotateY(${x}deg)` 
+    imgCon.style.transform = `perspective(1000px) rotateY(${x}deg)`;
+     
 }
 
 nextEle.addEventListener("click",()=>{
