@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: slateblue;
+}
+
+h1{
+    font-size: 50px;
+    font-family: "Bebas Neue", serif;
+    letter-spacing: 8px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.year{
+    color: white;
+    font-size: 100px;
+    font-family: "Bebas Neue", serif;
+    letter-spacing: 20px;
+    font-weight: 900;
+}
+
+.timer-con{
+    display: flex;
+    background-color: rgba(49, 43, 88, 0.522);
+    width: 100vw;
+    justify-content: center;
+    height: 190px;
+    gap: 10px;
+}
+
+.box{
+    color: white;
+    height: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box span{
+    font-size: 80px;
+}
+.box p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 6px;
+}
