@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+img{
+    width: 100px;
+    position: absolute;
+    top: -59px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 2px dotted blue;
+    width: 350px;
+    position: relative;
+}
+
+.box span{
+    font-size: 90px;
+    padding-top: 80px;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.box p{
+    font-family: cursive;
+    font-size: 28px;
+}
