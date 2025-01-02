@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(214, 180, 186);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    color: white;
+    font-family:cursive;
+    font-weight: bolder;
+    font-size: 80px;
+    text-shadow: 4px 4px 8px rgb(0,0,0,.5);
+}
+.btn{
+    width: 300px;
+    height: 200px;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+    cursor: pointer;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 900;
+    box-shadow: 6px 6px 8px rgb(0,0,0,.4);
+    background-image: url("/drum-kits/images/kick.png");
+    background-size: cover;
+    background-position: top;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover{
+    color: pink;
+}
+.btn:active{
+    background-size: 105%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
