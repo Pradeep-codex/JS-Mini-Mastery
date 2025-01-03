@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    background-image: url("https://media.istockphoto.com/id/1411847689/vector/abstract-black-background-with-neon-light-lines.jpg?s=612x612&w=0&k=20&c=pt7FvjoR38enTYy8nKGHblyeOrdCMlwlTWjDZ9dOLis=");
+    background-size: cover;
+    height: 100vh;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+
+}
+.text{
+    margin: 50px;
+    text-align:justify;
+    font-size: 20px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 60px;
+}
+.nav-bar{
+    display: flex;
+    position: fixed;
+    background-color: #fff;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 4px 4px 7px rgb(0,0,0,.4);
+}
+
+.nav-bar ul li{
+   list-style-type: none;
+}
+.nav-bar ul{
+    display: flex;
+    gap: 20px;
+    padding-right: 50px;
+}
+.nav-bar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.nav-bar.active{
+    background: #000;
+}
+.nav-bar.active h1{
+    color: white;
+}
+.nav-bar.active ul li a{
+    color: white;
+}
