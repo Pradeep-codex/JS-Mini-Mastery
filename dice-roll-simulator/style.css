@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.dice{
+    font-size: 130px;
+    animation-duration:1s ;
+    animation-fill-mode: forwards;
+}
+
+.animate{
+    animation-name: roll;
+}
+
+@keyframes roll {
+    0%{
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+    100%{
+        transform: rotateY(720deg) rotateX(720deg);
+    }
+}
+
+
+
+.btn{
+    padding: 20px 30px;
+    border: none;
+    background-color: rgb(93, 159, 179);
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:active{
+    opacity: .6;
+    color: black;
+}
+
+li{
+    list-style: none;
+    background-color: rgb(239, 239, 239);
+    margin: 30px 0;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0,.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    width: 550px;
+    height: 60px;
+}
+span{
+    font-size: 60px;
+}
+
