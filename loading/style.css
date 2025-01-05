@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+
+.number{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    width: 600px;
+}
+.load{
+    width: 100%;
+    height: 10px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #fa9e2e);
+}
