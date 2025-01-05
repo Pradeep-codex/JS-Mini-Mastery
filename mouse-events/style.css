@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(25, 93, 189);
+    color: white;
+}
+
+.container{
+    display: flex;
+    gap: 70px;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.x{
+    border: 3px solid white;
+    text-align: center;
+    padding: 60px 80px;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
